@@ -1,0 +1,16 @@
+/* nav bar start */
+.nav-item{
+    padding: left 50px;
+}
+.ul li a::after{
+    margin: 0 auto;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    transition: 0.33s linear;    
+}
+.hover ul li a:hover::after{
+    width: 100%;
+}
+/* nav bar end */
